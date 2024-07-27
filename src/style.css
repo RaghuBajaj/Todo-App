@@ -1,0 +1,135 @@
+*{
+  overflow-x: hidden;
+}
+.heading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(64, 96, 201);
+  /* background-color: rgb(44, 25, 150); */
+  color: aliceblue;
+  height: 8vh;
+  width: 100%;
+  overflow-x: hidden;
+  border: groove;
+  /* position: fixed; */
+  font-size: x-large;
+  font-family: cursive;
+}
+.overAll{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2%;
+  margin: 1%;
+  width: 100%;
+  /* background-color: rgb(218, 248, 255); */
+}
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2%;
+  margin: 1%;
+  width: 55%;
+  background-color: rgba(218, 248, 255, 0.58);
+  border-radius: 15px;
+  border: groove rgb(218, 248, 255) ;
+}
+.addSection{
+  /* background-color: rgb(218, 248, 255); */
+  border-radius: 3%;
+  /* border: groove; */
+  width: 100%;
+  padding: 1%;
+  margin: 1%;
+  
+}
+.ListSection{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(219, 248, 255);
+  border-radius: 15px;
+  /* border: groove; */
+  width: 100%;
+  padding: 1%;
+  /* margin: 1%; */
+}
+
+
+.inputSection{
+  display: flex;
+  justify-content: space-between;
+  width: 97%;
+  margin: 1%;
+  padding: 0.5%;
+  /* border: 1px solid rgb(44, 188, 97); */
+  /* gap: 5%; */
+}
+.input{
+  width: 87%;
+  padding: 1.5%;
+  cursor: pointer;
+  background-color: rgb(252, 254, 255);
+  border: 1px solid rgba(187, 187, 188, 0.783);
+  border-radius:8px;
+}
+input:focus {
+  border: 1px solid rgba(187, 187, 188, 0.783);
+}
+
+.titleName{
+  font-family: cursive;
+  font-size: x-large;
+  margin: 1%;
+  margin-bottom: 2%;
+}
+.btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(40, 87, 205, 0.888);
+  /* background-color: rgba(56, 84, 244, 0.872); */
+  border-radius: 6px;
+  border: groove rgba(143, 172, 230, 0.653) ;
+  cursor: pointer;
+  color: aliceblue;
+  /* padding: 5%; */
+}
+
+.list{
+  display: flex;
+  flex-direction: column;
+  margin: 1%;
+  padding: 1%;
+  width: auto;
+}
+.li{
+  display: flex;
+  justify-content: space-between;
+  padding: 1%;
+  width: 100%;
+  height: 100%;
+}
+.chit{
+  display: flex;
+  align-items: center;
+  gap: 5%;
+  width: 75%;
+  height: 100%;
+}
+.buttons{
+  display: flex;
+  padding: 1%;
+  width: auto;
+  gap: 8%;
+  height: 100%;
+}
+.checkbox{
+  margin: 1px;
+}
+.lbtn{
+  padding: 5px;
+}
